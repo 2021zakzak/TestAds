@@ -1,0 +1,27 @@
+<VAST version="4.0">
+  <Ad id="unique-ad-id-12345">
+    <InLine>
+      <AdSystem>Custom Ad Server</AdSystem>
+      <AdTitle>Sample Skippable Ad</AdTitle>
+      <Impression></Impression>
+      <Creatives>
+        <Creative>
+          <Linear skipoffset="00:00:03">
+            <Duration>00:00:06</Duration>
+            <TrackingEvents>
+              <!-- No tracking events as per your request -->
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough><![CDATA[https://banatube.com]]></ClickThrough>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="480" height="854" bitrate="727" codec="h264">
+                <![CDATA[https://banatube.com/wp-content/uploads/2024/04/4.5adstest.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+      </Creatives>
+    </InLine>
+  </Ad>
+</VAST>
